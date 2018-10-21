@@ -12,6 +12,7 @@
   "dependencies": {
     "@coleww/openmusic-sample-player": "^1.0.2",
     "browserify": "^16.2.3",
+    "fast-ish-markov": "^1.0.2",
     "load-sample-2-buff": "^1.0.1",
     "nice-color-palettes": "^2.0.0",
     "query-string": "^6.2.0",
