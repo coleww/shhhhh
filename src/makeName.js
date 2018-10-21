@@ -15,10 +15,10 @@ function makeBigNumber() {
 }
 
 module.exports = function () {
-  var ngram = 1 + ~~(Math.random() * 3)
+  var ngram = 3 + ~~(Math.random() * 3)
   var m = markov(words, ngram)
   var length = 2 + ~~(Math.random() * 10)
   var name = m.fill(m.pick(), 15).replace(/\s/g, '')
-  name += makeBigNumber()
+  if (Math.random() < 0.5) name += makeBigNumber()
   return name
 }

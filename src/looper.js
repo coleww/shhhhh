@@ -1,1 +1,0 @@
-var loadSample2Buff = require('load-sample-2-buff')
