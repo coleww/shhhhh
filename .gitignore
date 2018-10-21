@@ -1,3 +1,4 @@
 node_modules/
 bundle.js
 TODO.md
+.DS_Store
