@@ -5,19 +5,23 @@
   "main": "index.js",
   "scripts": {
     "watch": "watchify index.js -o bundle.js",
-    "build": "browserify index.js -o bundle.js"
+    "build": "browserify -t uglifyify index.js -o bundle.js"
   },
   "author": "Cole Willsea <coleww@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@coleww/openmusic-sample-player": "^1.0.2",
-    "browserify": "^16.2.3",
+    "a-d-s-r": "^1.0.2",
     "fast-ish-markov": "^1.0.2",
     "load-sample-2-buff": "^1.0.1",
     "nice-color-palettes": "^2.0.0",
     "query-string": "^6.2.0",
     "seedrandom": "^2.4.4",
-    "watchify": "^3.11.0",
+    "trigger-change": "^1.0.0",
     "web-audio-ui": "^2.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "uglifyify": "^5.0.1",
+    "watchify": "^3.11.0"
   }
 }

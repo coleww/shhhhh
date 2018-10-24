@@ -1,5 +1,6 @@
 var markov = require('fast-ish-markov')
 
+// TODO: probably do something better
 var words = []
   .concat(require('./textData/animals'))
   .concat(require('./textData/flowers'))

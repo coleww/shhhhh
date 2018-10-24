@@ -1,3 +1,5 @@
-.loop-container {
+.loop-container,
+.loopStart-container,
+.loopEnd-container {
   display: none;
 }
