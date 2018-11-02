@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "a-d-s-r": "^1.0.2",
-    "fast-ish-markov": "^1.0.2",
+    "friendly-words": "^1.1.0",
     "load-sample-2-buff": "^1.0.1",
     "nice-color-palettes": "^2.0.0",
     "query-string": "^6.2.0",
